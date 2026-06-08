@@ -1,0 +1,39 @@
+<svg width="680" height="300" viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg">
+<style>
+  .main-text { font-family: 'Arial Black', sans-serif; font-weight: 900; letter-spacing: -1px; }
+  .sub-text { font-family: 'Arial', sans-serif; font-weight: 400; letter-spacing: 4px; }
+</style>
+
+<!-- ÍCONE hex + folha -->
+<polygon points="100,30 148,2 196,30 196,86 148,114 100,86" fill="#0a4f2e" opacity="0.12"/>
+<polygon points="100,30 148,2 196,30 196,86 148,114 100,86" fill="none" stroke="#02c39a" stroke-width="1.5"/>
+<path d="M148,22 C166,22 190,38 190,62 C190,86 170,100 148,103 C126,100 106,86 106,62 C106,38 130,22 148,22 Z" fill="#0a4f2e"/>
+<path d="M148,25 L148,100" stroke="#02c39a" stroke-width="1.5" fill="none"/>
+<path d="M148,42 C157,39 170,41 179,48" stroke="#4cff91" stroke-width="1" fill="none" opacity="0.8"/>
+<path d="M148,57 C157,54 172,56 181,63" stroke="#4cff91" stroke-width="1" fill="none" opacity="0.8"/>
+<path d="M148,72 C156,69 168,71 176,78" stroke="#4cff91" stroke-width="1" fill="none" opacity="0.8"/>
+<path d="M148,42 C139,39 126,41 117,48" stroke="#4cff91" stroke-width="1" fill="none" opacity="0.8"/>
+<path d="M148,57 C139,54 124,56 115,63" stroke="#4cff91" stroke-width="1" fill="none" opacity="0.8"/>
+<path d="M148,72 C140,69 128,71 120,78" stroke="#4cff91" stroke-width="1" fill="none" opacity="0.8"/>
+<circle cx="100" cy="30" r="4" fill="#02c39a"/>
+<circle cx="148" cy="2" r="5" fill="#4cff91"/>
+<circle cx="196" cy="30" r="4" fill="#02c39a"/>
+<circle cx="196" cy="86" r="4" fill="#02c39a"/>
+<circle cx="148" cy="114" r="5" fill="#4cff91"/>
+<circle cx="100" cy="86" r="4" fill="#02c39a"/>
+<line x1="100" y1="30" x2="196" y2="30" stroke="#02c39a" stroke-width="0.5" opacity="0.3"/>
+<line x1="100" y1="86" x2="196" y2="86" stroke="#02c39a" stroke-width="0.5" opacity="0.3"/>
+<line x1="148" y1="2" x2="148" y2="114" stroke="#02c39a" stroke-width="0.5" opacity="0.3"/>
+
+<!-- WORDMARK -->
+<text x="225" y="72" class="main-text" font-size="58" fill="#0a1a0f">Carbon</text>
+<text x="225" y="128" class="main-text" font-size="58" fill="#02c39a">Ledger</text>
+<line x1="225" y1="148" x2="620" y2="148" stroke="#0a4f2e" stroke-width="0.8" opacity="0.35"/>
+<text x="225" y="172" class="sub-text" font-size="11" fill="#4a7060">CRÉDITOS DE CARBONO NA BLOCKCHAIN</text>
+<rect x="225" y="192" width="210" height="22" rx="4" fill="#0a4f2e" opacity="0.2"/>
+<rect x="225" y="192" width="210" height="22" rx="4" fill="none" stroke="#02c39a" stroke-width="0.5"/>
+<text x="234" y="208" font-family="Courier New, monospace" font-size="10" fill="#4cff91">HackWeb3 RESTIC 29  ·  IREDE 2026</text>
+<rect x="448" y="192" width="100" height="22" rx="4" fill="#02c39a" opacity="0.12"/>
+<rect x="448" y="192" width="100" height="22" rx="4" fill="none" stroke="#4cff91" stroke-width="0.5"/>
+<text x="457" y="208" font-family="Courier New, monospace" font-size="10" fill="#4cff91">1 CCT = 1t CO₂</text>
+</svg>
