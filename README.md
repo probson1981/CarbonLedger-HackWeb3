@@ -1,5 +1,13 @@
 # CarbonLedger
 
+![Solidity](https://img.shields.io/badge/Solidity-0.8.x-363636?style=flat&logo=solidity)
+![Hardhat](https://img.shields.io/badge/Hardhat-2.x-yellow?style=flat)
+![React](https://img.shields.io/badge/React-18.x-61DAFB?style=flat&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=flat&logo=typescript)
+![Network](https://img.shields.io/badge/Network-Sepolia-6f3ff5?style=flat)
+![License](https://img.shields.io/badge/License-Educacional-green?style=flat)
+![Status](https://img.shields.io/badge/Status-MVP%20Funcional-brightgreen?style=flat)
+
 ![CarbonLedger Logo](assets/carbonledger_logo_dark.jpg)
 
 ## Registro, validação, negociação, aposentadoria e certificação de créditos de carbono em blockchain
@@ -1056,26 +1064,44 @@ O CarbonLedger, nesta versão, é um MVP acadêmico e experimental. As principai
 
 ---
 
-## 28. Trabalhos futuros
+## 28. Trabalhos Futuros
 
-Possíveis evoluções do projeto:
+Possíveis evoluções do projeto, organizadas por área:
 
-* verificação dos contratos no Sepolia Etherscan;
-* integração com IPFS real;
-* integração com oráculos ambientais;
-* substituição definitiva do mock por price feed externo quando aplicável;
-* melhoria do módulo de governança;
-* melhoria do módulo de staking;
-* auditoria dos contratos inteligentes;
-* integração com padrões reconhecidos de certificação de carbono;
-* painel analítico para rastreabilidade dos créditos;
-* melhoria da arquitetura do frontend;
-* indexação de eventos on-chain;
-* criação de API auxiliar para consulta histórica;
-* melhoria da experiência de usuário;
-* suporte a múltiplos validadores e quóruns mais complexos;
-* relatórios de compensação exportáveis;
-* melhoria da documentação técnica.
+### 28.1 Infraestrutura e Contratos
+* verificação dos contratos no Sepolia Etherscan via `ETHERSCAN_API_KEY`;
+* substituição definitiva do mock por price feed externo (Chainlink real);
+* auditoria formal dos contratos inteligentes por empresa especializada;
+* migração para rede principal (Mainnet) após auditorias concluídas;
+* implementação de upgradeable contracts (padrão proxy) para facilitar evoluções sem novo deploy.
+
+### 28.2 Dados e Integração
+* integração com IPFS real para armazenamento descentralizado de documentos ambientais;
+* integração com oráculos ambientais para medições reais de emissões de CO₂;
+* integração com padrões reconhecidos de certificação de carbono (ex: Verra, Gold Standard);
+* criação de API auxiliar REST para consulta histórica de créditos e transações;
+* indexação de eventos on-chain com The Graph para consultas eficientes.
+
+### 28.3 Governança e Módulos
+* melhoria do módulo de governança com quóruns mais complexos e votação ponderada;
+* melhoria do módulo de staking com recompensas dinâmicas;
+* suporte a múltiplos validadores independentes com reputação on-chain;
+* implementação de sistema de disputas e apelações no processo de validação.
+
+### 28.4 Frontend e Experiência do Usuário
+* melhoria da arquitetura do frontend com separação de camadas (hooks, services, UI);
+* painel analítico para rastreabilidade completa dos créditos por projeto;
+* relatórios de compensação exportáveis em PDF e CSV;
+* melhoria da experiência de usuário com onboarding guiado para novos usuários Web3;
+* suporte a carteiras adicionais além do MetaMask (WalletConnect, Coinbase Wallet).
+
+### 28.5 Documentação e Qualidade
+* melhoria da documentação técnica com diagramas de arquitetura e fluxo;
+* cobertura de testes unitários e de integração acima de 90%;
+* pipeline CI/CD automatizado para deploy e testes;
+* criação de ambiente de staging antes da produção.
+
+> 📌 *Seção expandida e detalhada por Alanio Lima — Jun/2026*
 
 ---
 
