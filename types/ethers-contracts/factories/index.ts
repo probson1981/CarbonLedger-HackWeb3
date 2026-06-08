@@ -11,6 +11,7 @@ export * as validacaoProjetosSol from './ValidacaoProjetos.sol/index.js';
 export * as mocks from './mocks/index.js';
 export { CertificadoCompensacaoNFT__factory } from './CertificadoCompensacaoNFT__factory.js';
 export { GovernancaCarbono__factory } from './GovernancaCarbono__factory.js';
+export { ImpactNFT__factory } from './ImpactNFT__factory.js';
 export { RegistroOrganizacoes__factory } from './RegistroOrganizacoes__factory.js';
 export { TesourariaCarbono__factory } from './TesourariaCarbono__factory.js';
 export { TokenImpactoCarbono__factory } from './TokenImpactoCarbono__factory.js';

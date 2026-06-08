@@ -15,17 +15,18 @@ getContractFactory(name: 'AggregatorV3Interface', signerOrOptions?: ethers.Signe
 getContractFactory(name: 'CreditoCarbonoToken', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.CreditoCarbonoToken__factory>
 getContractFactory(name: 'IRegistroProjetosCarbonoCredito', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.IRegistroProjetosCarbonoCredito__factory>
 getContractFactory(name: 'CertificadoCompensacaoNFT', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.CertificadoCompensacaoNFT__factory>
-getContractFactory(name: 'GovernancaCarbono', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.GovernancaCarbono__factory>
 getContractFactory(name: 'ICreditoCarbonoTokenMercado', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.ICreditoCarbonoTokenMercado__factory>
 getContractFactory(name: 'IRegistroOrganizacoesMercado', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.IRegistroOrganizacoesMercado__factory>
 getContractFactory(name: 'ITesourariaCarbonoMercado', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.ITesourariaCarbonoMercado__factory>
 getContractFactory(name: 'MercadoCarbono', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.MercadoCarbono__factory>
+getContractFactory(name: 'ImpactNFT', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.ImpactNFT__factory>
+getContractFactory(name: 'RegistroOrganizacoes', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.RegistroOrganizacoes__factory>
 getContractFactory(name: 'ICertificadoCompensacaoNFTAposentadoria', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.ICertificadoCompensacaoNFTAposentadoria__factory>
 getContractFactory(name: 'ICreditoCarbonoTokenAposentadoria', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.ICreditoCarbonoTokenAposentadoria__factory>
 getContractFactory(name: 'IRegistroOrganizacoesAposentadoria', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.IRegistroOrganizacoesAposentadoria__factory>
 getContractFactory(name: 'ITesourariaCarbonoAposentadoria', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.ITesourariaCarbonoAposentadoria__factory>
 getContractFactory(name: 'RegistroAposentadorias', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.RegistroAposentadorias__factory>
-getContractFactory(name: 'RegistroOrganizacoes', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.RegistroOrganizacoes__factory>
+getContractFactory(name: 'GovernancaCarbono', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.GovernancaCarbono__factory>
 getContractFactory(name: 'IRegistroOrganizacoes', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.IRegistroOrganizacoes__factory>
 getContractFactory(name: 'ITesourariaCarbono', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.ITesourariaCarbono__factory>
 getContractFactory(name: 'RegistroProjetosCarbono', signerOrOptions?: ethers.Signer | FactoryOptions): Promise<Contracts.RegistroProjetosCarbono__factory>
@@ -44,17 +45,18 @@ getContractAt(name: 'AggregatorV3Interface', address: string | ethers.Addressabl
 getContractAt(name: 'CreditoCarbonoToken', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.CreditoCarbonoToken>
 getContractAt(name: 'IRegistroProjetosCarbonoCredito', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.IRegistroProjetosCarbonoCredito>
 getContractAt(name: 'CertificadoCompensacaoNFT', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.CertificadoCompensacaoNFT>
-getContractAt(name: 'GovernancaCarbono', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.GovernancaCarbono>
 getContractAt(name: 'ICreditoCarbonoTokenMercado', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.ICreditoCarbonoTokenMercado>
 getContractAt(name: 'IRegistroOrganizacoesMercado', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.IRegistroOrganizacoesMercado>
 getContractAt(name: 'ITesourariaCarbonoMercado', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.ITesourariaCarbonoMercado>
 getContractAt(name: 'MercadoCarbono', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.MercadoCarbono>
+getContractAt(name: 'ImpactNFT', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.ImpactNFT>
+getContractAt(name: 'RegistroOrganizacoes', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.RegistroOrganizacoes>
 getContractAt(name: 'ICertificadoCompensacaoNFTAposentadoria', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.ICertificadoCompensacaoNFTAposentadoria>
 getContractAt(name: 'ICreditoCarbonoTokenAposentadoria', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.ICreditoCarbonoTokenAposentadoria>
 getContractAt(name: 'IRegistroOrganizacoesAposentadoria', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.IRegistroOrganizacoesAposentadoria>
 getContractAt(name: 'ITesourariaCarbonoAposentadoria', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.ITesourariaCarbonoAposentadoria>
 getContractAt(name: 'RegistroAposentadorias', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.RegistroAposentadorias>
-getContractAt(name: 'RegistroOrganizacoes', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.RegistroOrganizacoes>
+getContractAt(name: 'GovernancaCarbono', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.GovernancaCarbono>
 getContractAt(name: 'IRegistroOrganizacoes', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.IRegistroOrganizacoes>
 getContractAt(name: 'ITesourariaCarbono', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.ITesourariaCarbono>
 getContractAt(name: 'RegistroProjetosCarbono', address: string | ethers.Addressable, signer?: ethers.Signer): Promise<Contracts.RegistroProjetosCarbono>
@@ -73,17 +75,18 @@ deployContract(name: 'AggregatorV3Interface', signerOrOptions?: ethers.Signer | 
 deployContract(name: 'CreditoCarbonoToken', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.CreditoCarbonoToken>
 deployContract(name: 'IRegistroProjetosCarbonoCredito', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.IRegistroProjetosCarbonoCredito>
 deployContract(name: 'CertificadoCompensacaoNFT', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.CertificadoCompensacaoNFT>
-deployContract(name: 'GovernancaCarbono', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.GovernancaCarbono>
 deployContract(name: 'ICreditoCarbonoTokenMercado', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.ICreditoCarbonoTokenMercado>
 deployContract(name: 'IRegistroOrganizacoesMercado', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.IRegistroOrganizacoesMercado>
 deployContract(name: 'ITesourariaCarbonoMercado', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.ITesourariaCarbonoMercado>
 deployContract(name: 'MercadoCarbono', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.MercadoCarbono>
+deployContract(name: 'ImpactNFT', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.ImpactNFT>
+deployContract(name: 'RegistroOrganizacoes', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.RegistroOrganizacoes>
 deployContract(name: 'ICertificadoCompensacaoNFTAposentadoria', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.ICertificadoCompensacaoNFTAposentadoria>
 deployContract(name: 'ICreditoCarbonoTokenAposentadoria', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.ICreditoCarbonoTokenAposentadoria>
 deployContract(name: 'IRegistroOrganizacoesAposentadoria', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.IRegistroOrganizacoesAposentadoria>
 deployContract(name: 'ITesourariaCarbonoAposentadoria', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.ITesourariaCarbonoAposentadoria>
 deployContract(name: 'RegistroAposentadorias', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.RegistroAposentadorias>
-deployContract(name: 'RegistroOrganizacoes', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.RegistroOrganizacoes>
+deployContract(name: 'GovernancaCarbono', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.GovernancaCarbono>
 deployContract(name: 'IRegistroOrganizacoes', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.IRegistroOrganizacoes>
 deployContract(name: 'ITesourariaCarbono', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.ITesourariaCarbono>
 deployContract(name: 'RegistroProjetosCarbono', signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.RegistroProjetosCarbono>
@@ -102,17 +105,18 @@ deployContract(name: 'AggregatorV3Interface', args: any[], signerOrOptions?: eth
 deployContract(name: 'CreditoCarbonoToken', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.CreditoCarbonoToken>
 deployContract(name: 'IRegistroProjetosCarbonoCredito', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.IRegistroProjetosCarbonoCredito>
 deployContract(name: 'CertificadoCompensacaoNFT', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.CertificadoCompensacaoNFT>
-deployContract(name: 'GovernancaCarbono', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.GovernancaCarbono>
 deployContract(name: 'ICreditoCarbonoTokenMercado', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.ICreditoCarbonoTokenMercado>
 deployContract(name: 'IRegistroOrganizacoesMercado', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.IRegistroOrganizacoesMercado>
 deployContract(name: 'ITesourariaCarbonoMercado', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.ITesourariaCarbonoMercado>
 deployContract(name: 'MercadoCarbono', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.MercadoCarbono>
+deployContract(name: 'ImpactNFT', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.ImpactNFT>
+deployContract(name: 'RegistroOrganizacoes', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.RegistroOrganizacoes>
 deployContract(name: 'ICertificadoCompensacaoNFTAposentadoria', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.ICertificadoCompensacaoNFTAposentadoria>
 deployContract(name: 'ICreditoCarbonoTokenAposentadoria', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.ICreditoCarbonoTokenAposentadoria>
 deployContract(name: 'IRegistroOrganizacoesAposentadoria', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.IRegistroOrganizacoesAposentadoria>
 deployContract(name: 'ITesourariaCarbonoAposentadoria', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.ITesourariaCarbonoAposentadoria>
 deployContract(name: 'RegistroAposentadorias', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.RegistroAposentadorias>
-deployContract(name: 'RegistroOrganizacoes', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.RegistroOrganizacoes>
+deployContract(name: 'GovernancaCarbono', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.GovernancaCarbono>
 deployContract(name: 'IRegistroOrganizacoes', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.IRegistroOrganizacoes>
 deployContract(name: 'ITesourariaCarbono', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.ITesourariaCarbono>
 deployContract(name: 'RegistroProjetosCarbono', args: any[], signerOrOptions?: ethers.Signer | DeployContractOptions): Promise<Contracts.RegistroProjetosCarbono>

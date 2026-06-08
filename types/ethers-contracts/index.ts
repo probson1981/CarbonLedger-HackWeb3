@@ -19,6 +19,7 @@ import type * as mocks from './mocks/index.js';
 export type { mocks };
 export type { CertificadoCompensacaoNFT } from './CertificadoCompensacaoNFT.js';
 export type { GovernancaCarbono } from './GovernancaCarbono.js';
+export type { ImpactNFT } from './ImpactNFT.js';
 export type { RegistroOrganizacoes } from './RegistroOrganizacoes.js';
 export type { TesourariaCarbono } from './TesourariaCarbono.js';
 export type { TokenImpactoCarbono } from './TokenImpactoCarbono.js';
@@ -32,7 +33,6 @@ export { CreditoCarbonoToken__factory } from './factories/CreditoCarbonoToken.so
 export type { IRegistroProjetosCarbonoCredito } from './CreditoCarbonoToken.sol/IRegistroProjetosCarbonoCredito.js';
 export { IRegistroProjetosCarbonoCredito__factory } from './factories/CreditoCarbonoToken.sol/IRegistroProjetosCarbonoCredito__factory.js';
 export { CertificadoCompensacaoNFT__factory } from './factories/CertificadoCompensacaoNFT__factory.js';
-export { GovernancaCarbono__factory } from './factories/GovernancaCarbono__factory.js';
 export type { ICreditoCarbonoTokenMercado } from './MercadoCarbono.sol/ICreditoCarbonoTokenMercado.js';
 export { ICreditoCarbonoTokenMercado__factory } from './factories/MercadoCarbono.sol/ICreditoCarbonoTokenMercado__factory.js';
 export type { IRegistroOrganizacoesMercado } from './MercadoCarbono.sol/IRegistroOrganizacoesMercado.js';
@@ -41,6 +41,8 @@ export type { ITesourariaCarbonoMercado } from './MercadoCarbono.sol/ITesouraria
 export { ITesourariaCarbonoMercado__factory } from './factories/MercadoCarbono.sol/ITesourariaCarbonoMercado__factory.js';
 export type { MercadoCarbono } from './MercadoCarbono.sol/MercadoCarbono.js';
 export { MercadoCarbono__factory } from './factories/MercadoCarbono.sol/MercadoCarbono__factory.js';
+export { ImpactNFT__factory } from './factories/ImpactNFT__factory.js';
+export { RegistroOrganizacoes__factory } from './factories/RegistroOrganizacoes__factory.js';
 export type { ICertificadoCompensacaoNFTAposentadoria } from './RegistroAposentadorias.sol/ICertificadoCompensacaoNFTAposentadoria.js';
 export { ICertificadoCompensacaoNFTAposentadoria__factory } from './factories/RegistroAposentadorias.sol/ICertificadoCompensacaoNFTAposentadoria__factory.js';
 export type { ICreditoCarbonoTokenAposentadoria } from './RegistroAposentadorias.sol/ICreditoCarbonoTokenAposentadoria.js';
@@ -51,7 +53,7 @@ export type { ITesourariaCarbonoAposentadoria } from './RegistroAposentadorias.s
 export { ITesourariaCarbonoAposentadoria__factory } from './factories/RegistroAposentadorias.sol/ITesourariaCarbonoAposentadoria__factory.js';
 export type { RegistroAposentadorias } from './RegistroAposentadorias.sol/RegistroAposentadorias.js';
 export { RegistroAposentadorias__factory } from './factories/RegistroAposentadorias.sol/RegistroAposentadorias__factory.js';
-export { RegistroOrganizacoes__factory } from './factories/RegistroOrganizacoes__factory.js';
+export { GovernancaCarbono__factory } from './factories/GovernancaCarbono__factory.js';
 export type { IRegistroOrganizacoes } from './RegistroProjetosCarbono.sol/IRegistroOrganizacoes.js';
 export { IRegistroOrganizacoes__factory } from './factories/RegistroProjetosCarbono.sol/IRegistroOrganizacoes__factory.js';
 export type { ITesourariaCarbono } from './RegistroProjetosCarbono.sol/ITesourariaCarbono.js';
