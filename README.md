@@ -22,6 +22,16 @@ Projeto desenvolvido para o **Hackathon Web 3.0 do IREDE**.
 
 ---
 
+## Acesso rápido e evidências
+
+* Repositório oficial: https://github.com/probson1981/CarbonLedger-HackWeb3
+* Aplicação funcional (ambiente local): http://localhost:5173
+* Demonstração navegável (passo a passo): [Seção 20 - Executar ambiente local Hardhat](#20-executar-ambiente-local-hardhat)
+* Evidências de funcionamento (relatório): [docs/CarbonLedger_HackWeb_Final.pdf](docs/CarbonLedger_HackWeb_Final.pdf)
+* Evidências de funcionamento (apresentação): [docs/CarbonLedger_Slides_Final.pdf](docs/CarbonLedger_Slides_Final.pdf)
+
+---
+
 ## 1. Visão geral
 
 O **CarbonLedger** é uma aplicação Web3 desenvolvida para demonstrar um fluxo mínimo de registro, validação, emissão, comercialização, aposentadoria e certificação de créditos de carbono usando blockchain e smart contracts.
