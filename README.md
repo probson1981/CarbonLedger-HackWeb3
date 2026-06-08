@@ -294,8 +294,8 @@ A rede Sepolia permite visualizar contratos, transações, saldos, eventos e NFT
 Clone o repositório:
 
 ```powershell
-git clone https://github.com/probson1981/CarbonLedger-Sepolia.git
-cd CarbonLedger-Sepolia
+git clone https://github.com/probson1981/CarbonLedger-HackWeb3.git
+cd CarbonLedger-HackWeb3
 ```
 
 Instale as dependências da raiz:
@@ -572,8 +572,8 @@ No MetaMask:
 Em uma máquina nova, após clonar o repositório:
 
 ```powershell
-git clone https://github.com/probson1981/CarbonLedger-Sepolia.git
-cd CarbonLedger-Sepolia
+git clone https://github.com/probson1981/CarbonLedger-HackWeb3.git
+cd CarbonLedger-HackWeb3
 npm install
 cd frontend
 npm install
