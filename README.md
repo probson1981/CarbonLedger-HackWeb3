@@ -1,5 +1,7 @@
 # CarbonLedger
 
+![CarbonLedger Logo](assets/carbonledger_logo.svg)
+
 ## Registro, validação, negociação, aposentadoria e certificação de créditos de carbono em blockchain
 
 **Autores:**
