@@ -2,13 +2,13 @@
   "projeto": "CarbonLedger",
   "rede": "sepolia",
   "chainId": "11155111",
-  "deployer": "0x8F992da5D0Eec581145E31635Dc23cfc9e937851",
+  "deployer": "0xaac477ff1eF0Ea5263965E0e2431A5Dd758723b3",
   "deployOrigem": {
-    "dataDeploy": "2026-06-07T02:48:12.341Z",
+    "dataDeploy": "2026-06-09T18:14:01.435Z",
     "geradoEm": null,
-    "deployer": "0x8F992da5D0Eec581145E31635Dc23cfc9e937851"
+    "deployer": "0xaac477ff1eF0Ea5263965E0e2431A5Dd758723b3"
   },
-  "configuradoEm": "2026-06-07T02:49:52.486Z",
+  "configuradoEm": "2026-06-09T18:17:03.627Z",
   "modo": "MVP - validação simplificada sem staking obrigatório",
   "autorizacoes": {
     "ValidacaoProjetos_em_RegistroProjetosCarbono": true,
@@ -38,49 +38,49 @@
     "saldoTICFormatado": "100000.0"
   },
   "contas": {
-    "admin": "0x942E4cB0a54d696b4c6a9601f54D4347fccD4e54",
-    "proponente": "0xd7b6B042F182D647058c6502E4D0e0e38a18Dbff",
-    "validador1": "0x424eFbE74870C91e67bE3f76F749DEcf4C1994dc",
-    "validador2": "0x58D38b2e341bF7bAFC0656f4B092aAFA1061074C",
-    "comprador": "0x0ae210d20A01CD500a64EA71B5ad6EF2f6067361",
-    "usuarioExtra": "0x92B6B20a8e9b2621552EAC138A28aE8d80Cad2f3"
+    "admin": "0x33edA30679fde460d03797c11e32B9fdFd73ae1a",
+    "proponente": "0x7E2E29074a25a47D76F0aafe756925773f6A43D0",
+    "validador1": "0x2C55CC38A51D5818fB5e201f58567Dcf7A18EdD4",
+    "validador2": "0x620f51dD4fE7431ecF2A6FEe2B44Fb0825d964F5",
+    "comprador": "0xa53792c82fdA0564cDfBEB3ABc3E441406189Aca",
+    "usuarioExtra": "0xa48E8b9d8686732804bbd46C89888030188F3474"
   },
   "etapas": [
     {
       "etapa": "RegistroProjetosCarbono.autorizarContrato(ValidacaoProjetos, true)",
       "status": "executada",
-      "txHash": "0xc4ea3ff007f056326eebf9bb52e22bc765b06d8dd03333e0c4bb68b236498605",
-      "bloco": 11005915
+      "txHash": "0xb5390463487f32615e5a386709aede0641de507b9c939f30bd5d6716ff843e6f",
+      "bloco": 11024187
     },
     {
       "etapa": "RegistroProjetosCarbono.autorizarContrato(CreditoCarbonoToken, true)",
       "status": "executada",
-      "txHash": "0xb87f8d4d34fb29886bcad27bd57de628c781c47db61d6155afd8837ece577cdc",
-      "bloco": 11005916
+      "txHash": "0xad2d144e1608637a598afa3b6df57daaa95ed9b27618af3949a2f074641ce325",
+      "bloco": 11024188
     },
     {
       "etapa": "CreditoCarbonoToken.autorizarContrato(RegistroAposentadorias, true)",
       "status": "executada",
-      "txHash": "0xe0b494b5be6ba95d3b0c7806b43efcf8f4d3deb31d0ad0cb6f807ecc4456d6a5",
-      "bloco": 11005917
+      "txHash": "0x34981226f96bcdac99c2dcf90dbb03561eda0c871be9b45693944d4f2c59f7c7",
+      "bloco": 11024189
     },
     {
       "etapa": "CertificadoCompensacaoNFT.autorizarContrato(RegistroAposentadorias, true)",
       "status": "executada",
-      "txHash": "0x3a6055da4722c85df9eb630d079cca17e07bef9dbda572edc23bd865504811ee",
-      "bloco": 11005918
+      "txHash": "0x6e67836cf11439786472f5bb07c5f5bfcec6130b9cebd2fd297a8cd6b2c27950",
+      "bloco": 11024190
     },
     {
       "etapa": "TesourariaCarbono.autorizarContrato(StakingCarbono, true)",
       "status": "executada",
-      "txHash": "0xa761e21143b08f77510ba43ec8f51cc83c49a34f2f7a8255c9f6c522bc820c52",
-      "bloco": 11005919
+      "txHash": "0xecdc854c7cadd4eacdd436308a38e7afa9288f42dc4108f7904c4dcdc5e5e25c",
+      "bloco": 11024191
     },
     {
       "etapa": "ValidacaoProjetos.alterarParametrosVotacao(60 segundos, 1 voto)",
       "status": "executada",
-      "txHash": "0x4bd4df2e2e5eb8ce97d6a5bb12b74560937749a2023c45c50e59707e273c10f0",
-      "bloco": 11005920
+      "txHash": "0xf3d3278f6066e7a5fa0f9b12024c2a59cc4c9a66fa9b0b4286d0e61ea07fc1fc",
+      "bloco": 11024192
     },
     {
       "etapa": "ValidacaoProjetos.configurarStakeValidador(sem staking para MVP)",
@@ -90,30 +90,30 @@
     {
       "etapa": "TokenImpactoCarbono.approve(TesourariaCarbono, 100000 TIC)",
       "status": "executada",
-      "txHash": "0x870a556283fdb8a0af9398709af166597899dccc9bfeaf541ae9aee3bab48c78",
-      "bloco": 11005921
+      "txHash": "0xe0d910a219de800b869cd30aa4d8bd7b03d626ab6b02f645c163bc4bb61a69da",
+      "bloco": 11024193
     },
     {
       "etapa": "TesourariaCarbono.depositarTIC(100000 TIC)",
       "status": "executada",
-      "txHash": "0xb9f48501691ad73e3000fecf7bf135eceb3c71c6e891b0f490e01122b5a23966",
-      "bloco": 11005922
+      "txHash": "0xdf76936e177ae7ed53549e9af02f50b58cf42673fd2d3acb0d41f5c1138af78e",
+      "bloco": 11024194
     }
   ],
   "contratos": {
-    "TokenImpactoCarbono": "0xCBF4949e0939a10C138058fA9793cAf5d84687d0",
-    "CreditoCarbonoToken": "0xD749101d11d43BDdE969C7CDA53F1eC6CF93f00c",
-    "CertificadoCompensacaoNFT": "0x565454a60c0A052b45DE933e2D7fcF153A68D985",
-    "RegistroOrganizacoes": "0x2F62F2092f49F01fC049187B26112fe82349236C",
-    "TesourariaCarbono": "0x43d3008F53c72183cdf941BD94d2E7646F1F34Bc",
-    "RegistroProjetosCarbono": "0x28799E7e0dF5bD7d81806C536335F6A4De56e123",
-    "ValidacaoProjetos": "0x9DD74A6d4C7302ed6937C4Da966de312BfA343CC",
-    "MercadoCarbono": "0x7780F0FE5D5946643bB2a0711a60D85DE2622d63",
-    "RegistroAposentadorias": "0xCc36A9dE2392BCa8d386159c1791c00F1514a069",
-    "StakingCarbono": "0x993048cE80bDa5239591b4013a7F84817A618Eeb",
-    "GovernancaCarbono": "0x33f282a44B92d3221560D06a54A964556D39FE0C",
-    "MockPriceFeedChainlink": "0xE0F7Fd2EA681d63499019bfe36DeEdc54Ec3cD2F",
-    "AdaptadorOraculoChainlink": "0x3efC4E80DBa2D328f9FB9dcA8acC032D15BD935B"
+    "TokenImpactoCarbono": "0xF7844A3611248b662619e57d9b449D70F09a54c1",
+    "CreditoCarbonoToken": "0x3d531487314044EB54445A1569274cCc39EDa3d9",
+    "CertificadoCompensacaoNFT": "0xbb6b379ba73C5B75A2455060ac35e62ECE003243",
+    "RegistroOrganizacoes": "0x1d3527c094C1e84060aa77be581b1CD34bE2B588",
+    "TesourariaCarbono": "0x66ae3C15188AeB5a5B359e459142BD3737c7163B",
+    "RegistroProjetosCarbono": "0x668C2A67e988A891a768CC9f762Ff8612C8aB447",
+    "ValidacaoProjetos": "0x28d85DC7c48A2a8990095eE339e1031d2b0801Cb",
+    "MercadoCarbono": "0x397342D2A0fd57650A0Af6EdA14f5b722E646505",
+    "RegistroAposentadorias": "0x4b491b03450Fe42A41540c3336dFd3378719eBe4",
+    "StakingCarbono": "0x835f2bed1977d70225b336d4eC9Bc8e5BD288BEf",
+    "GovernancaCarbono": "0x10F5a97f00a55e49228Ff80710496c344CF142D9",
+    "MockPriceFeedChainlink": "0x5F361ec025C21a512469666C4B26fE71EDcb9bfc",
+    "AdaptadorOraculoChainlink": "0x6eC5D4ff6663A3B206A30C9bBf4907437f0E85cA"
   },
   "explorador": {
     "nome": "Sepolia Etherscan",
